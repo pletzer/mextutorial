@@ -17,7 +17,7 @@ In MATLAB type
 mex foo.cpp
 ```
 
-Create two three random matrices x1, x2 and x3 with `size(x1) == size(x2)`. Apart from this the matrices can be anything. For instance,
+Create three random matrices x1, x2 and x3 with `size(x1) == size(x2)`. Apart from this the matrices can be anything. For instance,
 ```
 x1 = rand(1000, 2000); x2 = x1; x3 = rand(100,50);
 ```
