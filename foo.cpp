@@ -22,10 +22,10 @@ To compile the function type:
 void mexFunction(int nlhs, mxArray *plhs[],
                  int nrhs, const mxArray *prhs[]) {
 
-	// get the number of elements of the first input
+    // get the number of elements of the first input
     size_t ntot12 = mxGetNumberOfElements(prhs[0]);
 
-    // get the number of elements of the second intput
+    // get the number of elements of the third intput
     size_t n3 = mxGetNumberOfElements(prhs[2]);
 
     // this converts the inputs into C/C++ primitive arrays, which
